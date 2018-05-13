@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+
+    <title>Note Sms Testing</title>
+
+</head>
+
+
+<body style="background-color: #95afc0">
+
+    <div class="container">
+        <div class="container-fluid">
+            <div style="margin-top: 200px;">
+                <h1>SMS Sending APP</h1>
+                <input type="tel" name="number" id="number" placeholder="Enter phone number..." />
+                <input type="text" name="msg" id="msg" placeholder="Enter msg here..." />
+                <input type="button" id="button" class="button button-primary" value="Send Text" />
+                <p class="response"></p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/main.js"></script>
+
+</html>
